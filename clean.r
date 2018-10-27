@@ -2,7 +2,6 @@
 info <- read.csv("/Users/allisonbolen/school/fall2018/cis331/data/breast-cancer.csv",na.strings = "")
 
 # 1. Complete am exploration of the data by learning about the structure of the data set
-    summary(info)
     # Rename data columns 
     colnames(info)[colnames(info)=="no.recurrence.events"] <- "recurrenceEvents"
     colnames(info)[colnames(info)=="X30.39"] <- "ageGroup"
@@ -24,6 +23,7 @@ info <- read.csv("/Users/allisonbolen/school/fall2018/cis331/data/breast-cancer.
 
   # remmoved all the '?' from the relevent attributes 
     summary(info)
+    str(info)
     
 # 3. Handling outliers
   # examine the outliers in each attribute
