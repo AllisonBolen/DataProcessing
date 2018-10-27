@@ -1,0 +1,37 @@
+Script started on Sat Oct 27 15:07:10 2018
+[1m[7m%[27m[1m[0m                                                                                                 ]2;allisonbolen@Allisons-MacBook-Pro: ~/school/fall2018/cis331/data]1;..8/cis331/data[0m[27m[24m[J[32mallisonbolen[00m@[36mAllisons-MacBook-Pro[00m:[35m~/school/fall2018/cis331/data[33m(preprocessing[31m⚡[00m[33m)[00m [31m»[00m [K[?1h=[?2004hRRscript clean.r[1m [0m[Kr[K[?1l>[?2004l
+]2;Rscript clean.r]1;Rscript           no.recurrence.events   X30.39      premeno        X30.34  
+ no-recurrence-events:200       20-29: 1   ge40   :129   30-34  :59  
+ recurrence-events   : 85       30-39:35   lt40   :  7   25-29  :54  
+                                40-49:90   premeno:149   20-24  :50  
+                                50-59:96                 15-19  :30  
+                                60-69:57                 10-14  :28  
+                                70-79: 6                 40-44  :22  
+                                                         (Other):42  
+    X0.2       no            X3           left          left_low    no.1    
+ 0-2  :212   ?  :  8   Min.   :1.000   left :151   ?        :  1   no :217  
+ 12-14:  3   no :221   1st Qu.:2.000   right:134   central  : 21   yes: 68  
+ 15-17:  6   yes: 56   Median :2.000               left_low :109            
+ 24-26:  1             Mean   :2.046               left_up  : 97            
+ 3-5  : 36             3rd Qu.:3.000               right_low: 24            
+ 6-8  : 17             Max.   :3.000               right_up : 33            
+ 9-11 : 10                                                                  
+             recurrenceEvents  ageGroup  menopauseStage   tumorSize 
+ no-recurrence-events:195     20-29: 1   ge40   :123    30-34  :56  
+ recurrence-events   : 81     30-39:35   lt40   :  5    25-29  :51  
+                              40-49:89   premeno:148    20-24  :48  
+                              50-59:91                  15-19  :29  
+                              60-69:55                  10-14  :28  
+                              70-79: 5                  40-44  :22  
+                                                        (Other):42  
+  invNodes   nodeCaps     degMalig       breast        breastQuad  irradiat 
+ 0-2  :208   ?  :  0   Min.   :1.000   left :144   ?        :  0   no :214  
+ 12-14:  3   no :220   1st Qu.:2.000   right:132   central  : 21   yes: 62  
+ 15-17:  6   yes: 56   Median :2.000               left_low :105            
+ 24-26:  1             Mean   :2.054               left_up  : 94            
+ 3-5  : 34             3rd Qu.:3.000               right_low: 23            
+ 6-8  : 17             Max.   :3.000               right_up : 33            
+ 9-11 :  7                                                                  
+[1m[7m%[27m[1m[0m                                                                                                 ]2;allisonbolen@Allisons-MacBook-Pro: ~/school/fall2018/cis331/data]1;..8/cis331/data[0m[27m[24m[J[32mallisonbolen[00m@[36mAllisons-MacBook-Pro[00m:[35m~/school/fall2018/cis331/data[33m(preprocessing[31m⚡[00m[33m)[00m [31m»[00m [K[?1h=[?2004heeixt  e exit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sat Oct 27 15:07:27 2018
