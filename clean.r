@@ -30,22 +30,20 @@ info <- read.csv("/Users/allisonbolen/school/fall2018/cis331/data/breast-cancer.
   #  convert catagorical to numeric values
   #  ageGroup: 
     # 10-19: 14, 20-29: 24, 30-39:34, 40-49:44 , 50-59:54, 60-69:64, 70-79:74, 80-89:84, 90-99:94. 
-    #info$ageModified[info$ageGroup == "10-19"] <- 14
-    #info$ageModified[info$ageGroup == "20-29"] <- 24
-    #info$ageModified[info$ageGroup == "30-39"] <- 34
-    #info$ageModified[info$ageGroup == "40-49"] <- 44
-    #info$ageModified[info$ageGroup == "50-59"] <- 54
-    #info$ageModified[info$ageGroup == "60-69"] <- 64
-    #info$ageModified[info$ageGroup == "70-79"] <- 74
-    #info$ageModified[info$ageGroup == "80-89"] <- 84
-    #info$ageModified[info$ageGroup == "90-99"] <- 94
-    
+    info$invNodesModified[info$invNodes == "0-2"] <- as.factor("x<=2")
+    info$invNodesModified[info$invNodes == "12-14"] <- as.factor("x>2")
+    info$invNodesModified[info$invNodes == "15-17"] <- as.factor("x>2")
+    info$invNodesModified[info$invNodes == "24-26"] <- as.factor("x>2")
+    info$invNodesModified[info$invNodes == "3-5"] <- as.factor("x>2")
+    info$invNodesModified[info$invNodes == "6-8"] <- as.factor("x>2")
+    info$invNodesModified[info$invNodes == "9-11"] <- as.factor("x>2")
+
+    info$invNodesModified
+    # where 1 represents less than or equal to 2 and 2 represents more than 2
     # I may not need to do outlier correction because the data set consists of mainly catagorical data
-        
-    
     
     # 4. Data transformation using normalization: 
-
+    summary(info)
 # 5. Data discretization: if you want to convert a continuous variable to categorical variable, you may
 # use one of the following three methods
 
