@@ -1,5 +1,5 @@
-Script started on Sat Oct 27 15:10:59 2018
-[1m[7m%[27m[1m[0m                                                                                                 ]2;allisonbolen@Allisons-MacBook-Pro: ~/school/fall2018/cis331/data]1;..8/cis331/data[0m[27m[24m[J[32mallisonbolen[00m@[36mAllisons-MacBook-Pro[00m:[35m~/school/fall2018/cis331/data[33m(preprocessing[31m⚡[00m[33m)[00m [31m»[00m [K[?1h=[?2004hscript output.txt[K[A[80Cgit push[K[1B[K[A[91Ccommit -m "output file"[K[A[74Cadd .[K[1B[K[A[92Cstatus[10Drm typescript[13Dgit rm typescript[K[A[84Cstatus[K[1B[K[A[93C[10Dexit      Rscript clean.r[K[?1l>[?2004l
+Script started on Sun Oct 28 17:18:10 2018
+[1m[7m%[27m[1m[0m                                                                                                  ]2;allisonbolen@Allisons-MacBook-Pro: ~/school/fall2018/cis331/data]1;..8/cis331/data[0m[27m[24m[J[32mallisonbolen[00m@[36mAllisons-MacBook-Pro[00m:[35m~/school/fall2018/cis331/data[33m(preprocessing[31m⚡[00m[33m)[00m [31m»[00m [K[?1h=[?2004hRRscripts  clean.r[1m [0m[K[K[?1l>[?2004l
 ]2;Rscript clean.r]1;Rscript             recurrenceEvents  ageGroup  menopauseStage   tumorSize 
  no-recurrence-events:195     20-29: 1   ge40   :123    30-34  :56  
  recurrence-events   : 81     30-39:35   lt40   :  5    25-29  :51  
@@ -27,6 +27,58 @@ Script started on Sat Oct 27 15:10:59 2018
  $ breast          : Factor w/ 2 levels "left","right": 2 1 2 2 1 1 1 1 2 1 ...
  $ breastQuad      : Factor w/ 6 levels "?","central",..: 6 3 4 5 3 3 3 3 4 2 ...
  $ irradiat        : Factor w/ 2 levels "no","yes": 1 1 1 1 1 1 1 1 1 1 ...
-[1m[7m%[27m[1m[0m                                                                                                 ]2;allisonbolen@Allisons-MacBook-Pro: ~/school/fall2018/cis331/data]1;..8/cis331/data[0m[27m[24m[J[32mallisonbolen[00m@[36mAllisons-MacBook-Pro[00m:[35m~/school/fall2018/cis331/data[33m(preprocessing[31m⚡[00m[33m)[00m [31m»[00m [K[?1h=[?2004heexit[?1l>[?2004l
+  [1] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [11] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [21] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [31] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [41] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [51] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [61] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [71] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [81] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+ [91] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+[101] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+[111] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+[121] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x>2"  "x>2"  "x<=2" "x>2"  "x>2" 
+[131] "x>2"  "x>2"  "x<=2" "x<=2" "x>2"  "x>2"  "x<=2" "x<=2" "x<=2" "x>2" 
+[141] "x>2"  "x<=2" "x<=2" "x>2"  "x<=2" "x>2"  "x<=2" "x<=2" "x>2"  "x>2" 
+[151] "x>2"  "x<=2" "x<=2" "x>2"  "x>2"  "x<=2" "x<=2" "x<=2" "x<=2" "x>2" 
+[161] "x<=2" "x>2"  "x>2"  "x>2"  "x<=2" "x<=2" "x>2"  "x<=2" "x>2"  "x>2" 
+[171] "x>2"  "x<=2" "x<=2" "x<=2" "x>2"  "x<=2" "x<=2" "x<=2" "x<=2" "x>2" 
+[181] "x<=2" "x<=2" "x<=2" "x<=2" "x>2"  "x<=2" "x>2"  "x<=2" "x<=2" "x<=2"
+[191] "x>2"  "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+[201] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2"
+[211] "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x>2"  "x>2"  "x>2" 
+[221] "x<=2" "x>2"  "x<=2" "x>2"  "x>2"  "x>2"  "x<=2" "x>2"  "x<=2" "x<=2"
+[231] "x<=2" "x>2"  "x>2"  "x>2"  "x>2"  "x>2"  "x>2"  "x>2"  "x>2"  "x>2" 
+[241] "x>2"  "x>2"  "x<=2" "x<=2" "x<=2" "x<=2" "x<=2" "x>2"  "x<=2" "x>2" 
+[251] "x>2"  "x>2"  "x>2"  "x>2"  "x<=2" "x>2"  "x>2"  "x>2"  "x<=2" "x<=2"
+[261] "x>2"  "x<=2" "x<=2" "x<=2" "x>2"  "x>2"  "x>2"  "x>2"  "x>2"  "x>2" 
+[271] "x>2"  "x<=2" "x<=2" "x<=2" "x>2"  "x>2" 
+             recurrenceEvents  ageGroup  menopauseStage   tumorSize 
+ no-recurrence-events:195     20-29: 1   ge40   :123    30-34  :56  
+ recurrence-events   : 81     30-39:35   lt40   :  5    25-29  :51  
+                              40-49:89   premeno:148    20-24  :48  
+                              50-59:91                  15-19  :29  
+                              60-69:55                  10-14  :28  
+                              70-79: 5                  40-44  :22  
+                                                        (Other):42  
+  invNodes   nodeCaps     degMalig       breast        breastQuad  irradiat 
+ 0-2  :208   ?  :  0   Min.   :1.000   left :144   ?        :  0   no :214  
+ 12-14:  3   no :220   1st Qu.:2.000   right:132   central  : 21   yes: 62  
+ 15-17:  6   yes: 56   Median :2.000               left_low :105            
+ 24-26:  1             Mean   :2.054               left_up  : 94            
+ 3-5  : 34             3rd Qu.:3.000               right_low: 23            
+ 6-8  : 17             Max.   :3.000               right_up : 33            
+ 9-11 :  7                                                                  
+ invNodesModified  
+ Length:276        
+ Class :character  
+ Mode  :character  
+                   
+                   
+                   
+                   
+[1m[7m%[27m[1m[0m                                                                                                  ]2;allisonbolen@Allisons-MacBook-Pro: ~/school/fall2018/cis331/data]1;..8/cis331/data[0m[27m[24m[J[32mallisonbolen[00m@[36mAllisons-MacBook-Pro[00m:[35m~/school/fall2018/cis331/data[33m(preprocessing[31m⚡[00m[33m)[00m [31m»[00m [K[?1h=[?2004heexit[?1l>[?2004l
 ]2;exit]1;exit
-Script done on Sat Oct 27 15:11:06 2018
+Script done on Sun Oct 28 17:18:21 2018
