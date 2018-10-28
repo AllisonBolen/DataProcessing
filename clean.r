@@ -24,29 +24,29 @@ info <- read.csv("/Users/allisonbolen/school/fall2018/cis331/data/breast-cancer.
   # remmoved all the '?' from the relevent attributes 
     summary(info)
     str(info)
+    #reorganize the invNodes attributes
+    info$invNodesModified[info$invNodes == "0-2"] <- "x<=2"
+    info$invNodesModified[info$invNodes == "12-14"] <- "x>2"
+    info$invNodesModified[info$invNodes == "15-17"] <- "x>2"
+    info$invNodesModified[info$invNodes == "24-26"] <- "x>2"
+    info$invNodesModified[info$invNodes == "3-5"] <- "x>2"
+    info$invNodesModified[info$invNodes == "6-8"] <- "x>2"
+    info$invNodesModified[info$invNodes == "9-11"] <- "x>2"
+    
+    info$invNodesModified
+    # where 1 represents less than or equal to 2 and 2 represents more than 2
+    # I may not need to do outlier correction because the data set consists of mainly catagorical data
+    summary(info)
     
 # 3. Handling outliers
   # examine the outliers in each attribute
   #  convert catagorical to numeric values
-  #  ageGroup: 
-    # 10-19: 14, 20-29: 24, 30-39:34, 40-49:44 , 50-59:54, 60-69:64, 70-79:74, 80-89:84, 90-99:94. 
-    info$invNodesModified[info$invNodes == "0-2"] <- as.factor("x<=2")
-    info$invNodesModified[info$invNodes == "12-14"] <- as.factor("x>2")
-    info$invNodesModified[info$invNodes == "15-17"] <- as.factor("x>2")
-    info$invNodesModified[info$invNodes == "24-26"] <- as.factor("x>2")
-    info$invNodesModified[info$invNodes == "3-5"] <- as.factor("x>2")
-    info$invNodesModified[info$invNodes == "6-8"] <- as.factor("x>2")
-    info$invNodesModified[info$invNodes == "9-11"] <- as.factor("x>2")
-
-    info$invNodesModified
-    # where 1 represents less than or equal to 2 and 2 represents more than 2
-    # I may not need to do outlier correction because the data set consists of mainly catagorical data
+  # there are not problem outliers
     
-    # 4. Data transformation using normalization: 
-    summary(info)
+# 4. Data transformation using normalization:
+    # I do not need to normalize on this data set because it is already past this step
 # 5. Data discretization: if you want to convert a continuous variable to categorical variable, you may
-# use one of the following three methods
-
+    # I do not need to discretize this data set because it is already binned. 
 # 6. Feature reduction
-
-# 
+    # this set is done in weka please see the included jpg file in the github repo
+write.csv(info, file="/Users/allisonbolen/school/fall2018/cis331/data/breastCancerModif.csv")
